@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Card Design */
+.card {
+    width: 300px;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+/* Hover Effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Profile Image */
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+/* Branch Text */
+.branch {
+    color: gray;
+}
+
+/* Skills Section */
+#skills {
+    display: none;
+    margin-top: 10px;
+}
+
+/* Button Styling */
+button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Hover */
+button:hover {
+    background-color: #45a049;
+}
